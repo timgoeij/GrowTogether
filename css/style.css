@@ -1,0 +1,334 @@
+body
+{
+    background-color: #7FC395;
+    font-family: 'Raleway', sans-serif;
+}
+
+#login
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border: solid grey 1px;
+    background-color: white;
+
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+
+    transform: translate(-50%, -50%);
+    color: #7FC395;
+}
+
+#information-block
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: #EDEDED;
+    transform: translate(-40%, -50%);
+    color: #7FC395;
+    width: 1400px;
+    height: 800px;
+    overflow: auto;
+
+    border: solid grey 1px;
+    border-radius: 5px 5px 15px 15px;
+    -moz-border-radius: 5px 5px 15px 15px;
+    -webkit-border-radius: 5px 5px 15px 15px;
+}
+
+#garden
+{
+    height: 88%;
+}
+
+#garden-holder, #crops
+{
+    width: 49.92%;
+    float: left;
+    height: inherit;
+}
+
+#crops
+{
+    background-color: #7DC193;
+    border-left: solid white 2px;
+}
+
+.crop
+{
+    width: 24.6%;
+    background-color: #C0E0CB;
+    border: solid white 1px;
+    display: inline-block;
+    font-weight: bolder;
+}
+
+.crop-image
+{
+    float: right;
+    width: 75%;
+    margin: 10px;
+}
+
+.day-count
+{
+    margin: 0;
+    font-size: larger;
+}
+
+#crop-holder
+{
+    width: 80%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.plant
+{
+    width: 33.33%;
+    height: 90%;
+    display: inline-block;
+    float: left;
+}
+
+.small
+{
+    width: 10%;
+}
+
+.title
+{
+    background-color: white;
+}
+
+#information-block h1
+{
+    margin: 0;
+    padding: 15px 20px;
+    font-size: xx-large;
+}
+
+.title h2
+{
+    margin: 0.83em 0 0 0;
+    padding: 15px 20px;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+
+.info-text
+{
+    width: 65%;
+    float: left;
+    margin: 5px 0;
+}
+
+.lineholder
+{
+    width: 80%;
+    float: left;
+}
+
+span
+{
+    font-weight: bolder;
+}
+
+.thin
+{
+    font-weight: lighter;
+}
+
+.info-icon
+{
+    float: right;
+    margin-right: 20px;
+}
+
+.icon
+{
+    top: -100px;
+}
+
+.garden-info-block
+{
+    background-color: #7FC395;
+    color: #EDEDED;
+    height: 17%;
+    padding: 40px 10px 10px 20px;
+    overflow: auto;
+}
+
+.info-block
+{
+    background-color: #7FC395;
+    color: #EDEDED;
+    border-bottom: 2px solid #40A660;
+    height: 115px;
+    padding: 40px 10px 10px 20px;
+    overflow: auto;
+}
+
+.info
+{
+    background-color: #BEE0C9;
+    color: darkgray;
+    height: 115px;
+    padding: 40px 10px 10px 20px;
+}
+
+.feel
+{
+    height: 90px;
+    padding: 20px 10px 10px 20px;
+}
+
+#menu
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    color: #7FC395;
+    height: 100%;
+
+}
+
+#logout
+{
+    position: fixed;
+    width: 150px;
+    background-color: white;
+    font-size: 24px;
+    top: 0;
+    right: 0;
+    color: #40A660;
+    text-align: center;
+    padding: 15px 0;
+
+    border: solid grey 1px;
+    border-radius: 0 0 0 5px;
+    -moz-border-radius: 0 0 0 5px;
+    -webkit-border-radius: 0 0 0 5px;
+}
+
+#menu-img
+{
+    width: 250px;
+    margin: 10px;
+}
+
+#title
+{
+    padding: 10px 100px;
+}
+
+#login-form
+{
+    background-color: #EDEDED;
+    padding: 10px 100px;
+}
+
+#icon-holder
+{
+    overflow: auto;
+}
+
+#icon-text
+{
+    width: 150px;
+    margin: 20px;
+}
+
+.name-text
+{
+    font-size: 24px;
+    width: 118px;
+    margin: 20px;
+    font-weight: bold;
+    color: #7FC395;
+}
+
+#name-text
+{
+    width: 150px;
+    margin: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu
+{
+    border-top: 5px solid #40A660;
+}
+
+.line
+{
+    height: 5px;
+}
+
+.line-text
+{
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    width: 40px;
+}
+
+.inline
+{
+    float: left;
+}
+
+.input
+{
+    width: 75%;
+}
+
+.icon-margin
+{
+    margin: 15px;
+}
+
+.select
+{
+    color: white;
+    background-color: #7FC395;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+.menu-link
+{
+    text-decoration: none;
+    height: 20px;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+a
+{
+    text-decoration: none;
+    color: #7FC395;
+}
+
+#form
+{
+    margin: 20px 0;
+}
+
+#submit
+{
+    background-color: #7FC395;
+    margin-left: 10px;
+    color: white;
+}
